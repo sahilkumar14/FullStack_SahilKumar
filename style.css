@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navigation{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #600396;
+}
+nav{
+  ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  li{
+    margin: 0 1rem;
+  }
+  a{
+    text-decoration: none;
+    color: #333;
+    font-family: "Edu NSW ACT Cursive", cursive;
+  }
+}
+a:hover{
+  color: #600396;
+}
+p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
