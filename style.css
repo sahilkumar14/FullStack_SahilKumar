@@ -1,9 +1,11 @@
 body{
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 2px;
 }
 .navigation{
   display:flex;
+  padding: 2px;
+  margin: 2px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid #600396;
@@ -26,7 +28,7 @@ nav{
 a:hover{
   color: #600396;
 }
-p{
+.logo{
   font-size: 1.2rem;
   line-height: 1.5;
   font-family: "Edu NSW ACT Cursive", cursive;
