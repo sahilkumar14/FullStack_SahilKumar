@@ -1,7 +1,6 @@
 body{
   margin: auto;
   padding: 0px;
-  background-color: black;
   backdrop-filter: blur(5px);
 }
 .navigation{
@@ -11,6 +10,12 @@ body{
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid #600396;
+}
+.hero{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 nav{
   ul{
@@ -23,7 +28,7 @@ nav{
   }
   a{
     text-decoration: none;
-    color: #ffffff;
+    color: black;
     font-family: "Edu NSW ACT Cursive", cursive;
   }
 }
@@ -46,25 +51,38 @@ a:hover{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   box-shadow: #600396 3px 2px;
-   width: 100rem;
+   border-bottom: 2px solid black;
+   width: 100%;
    height: 50rem;
    background-image: url();
 }
 .hero-content-2{
     display: flex;
     flex-direction: column;
-
     padding: 4px;
     margin: 4px;
     height: 40rem;
-    width: 100rem;
+    width: 100%;
 
 }
 .project{
   color: #600396;
   text-align: left;
   
+}
+.project1{
+    height: 300px;
+    border-radius: 5px;
+    width: 300px;
+    border: 2px solid #600396;
+    text-align: center;
+    align-items: center;
+}
+.project-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 h1{
   font-family: "Edu NSW ACT Cursive", cursive;
@@ -75,7 +93,7 @@ h1{
   padding: 0;
 }
 p{
-  color: #ffffff;
+  color: black;
   text-align: center;
   font-size: 400;
   font-display: fallback;
