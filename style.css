@@ -1,6 +1,8 @@
 body{
   margin: 2px;
   padding: 2px;
+  background-color: black;
+  backdrop-filter: blur(5px);
 }
 .navigation{
   display:flex;
@@ -21,18 +23,36 @@ nav{
   }
   a{
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-family: "Edu NSW ACT Cursive", cursive;
   }
 }
 a:hover{
-  color: #600396;
+  background-color: #600396;
+  transform: translateX(2px);
+  border-radius: 5px;
 }
 .logo{
   font-size: 1.2rem;
   line-height: 1.5;
+  color: #600396;
   font-family: "Edu NSW ACT Cursive", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style: bold;
+}
+.hero-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url();
+}
+h1{
+  font-family: "Edu NSW ACT Cursive", cursive;
+  color: #600396;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  padding: 0;
 }
